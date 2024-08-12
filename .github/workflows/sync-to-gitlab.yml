@@ -23,7 +23,7 @@ jobs:
           git config --global user.email "hungphaolo02@gmail.com"
 
       - name: Add GitLab Remote
-        run: git remote add gitlab https://git.dkviet.com/vinhhung1/test.git
+        run: git remote add gitlab https://git.dkviet.com/vinhhung1/newtest.git
 
       - name: Push to GitLab
         env:
